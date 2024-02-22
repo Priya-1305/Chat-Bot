@@ -1,0 +1,116 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    ;
+}
+
+body {
+    height: 100vh;
+    background: 
+    linear-gradient(to right top, 
+    rgb(108, 108, 245), 
+    rgb(250, 132, 234));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body img {
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    width: 600px;
+    z-index: -1;
+    background: no-repeat;
+}
+
+#logo img{
+    position: absolute;
+    top: 34px;
+    left: 34px;
+    width: 80px;
+    border-radius: 8px;
+}
+
+#bodybox {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 40%;
+    background:
+    linear-gradient(to right bottom, 
+    rgba(255, 255, 255, 65%), 
+    rgba(255, 255, 255, 15%));
+    backdrop-filter: blur(5px);
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    box-shadow: #8080808a 6px 6px 12px 0px;
+}
+
+#profile h2{
+    position: absolute;
+    top: 4%;
+    left: 20%;
+}
+
+#profile img{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    width: 3rem;
+}
+
+#chatboarder{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    border-radius: 2rem;
+    width: 90%;
+    height: 80%;
+    padding: 23px;
+}
+
+#chatbox{
+    width: 90%;
+    height: 23px;
+    border: 2px solid black;
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 3%;
+    right: 23px;
+    padding: 15px;
+}
+
+.chatlog{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+@media only screen and (max-width:600px){
+     #bodybox{
+         width: 100vh;
+         height: 100vh;
+         margin-top:200px;
+         margin-left: 10px;
+         margin-right: 10px;
+     }
+     #logo img{
+        position: absolute;
+        align-items: center;
+        border-radius: 8px;
+    }
+
+    #logo img{
+        top: 5px;
+        text-align: center;
+        justify-content: center;
+    }
+  
+}
