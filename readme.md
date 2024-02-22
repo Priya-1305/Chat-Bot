@@ -1,6 +1,4 @@
 ChatBot>>>
-
- https://ashish-chanchal.github.io/chatbot/
  
 visit through direct link
 
